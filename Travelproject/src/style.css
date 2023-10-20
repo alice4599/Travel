@@ -1,0 +1,10 @@
+header {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/101/353/original/vegas.jpeg?1697790293");
+  font-family: poppins;
+  color: white;
+}
+h1 {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 144px;
+}
