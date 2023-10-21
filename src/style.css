@@ -1,10 +1,136 @@
-header {
-  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/101/353/original/vegas.jpeg?1697790293");
+body {
   font-family: poppins;
+  background-color: black;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/101/353/original/vegas.jpeg?1697790293");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color: white;
+  padding: 200px;
+  text-align: center;
+}
+h3 {
+  letter-spacing: 5px;
+  margin: 0 auto;
 }
 h1 {
   font-weight: 700;
   font-size: 96px;
-  line-height: 144px;
+  line-height: 1.5;
+}
+button {
+  border-radius: 8%;
+  font-weight: bold;
+  height: 53px;
+  gap: 10px;
+  letter-spacing: 3px;
+  padding: 16px, 32px, 16px, 32px;
+  text-transform: uppercase;
+  width: 179px;
+}
+
+.history {
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+img {
+  width: 600px;
+  height: 500px;
+  padding: 60px 30px;
+}
+.title {
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+}
+.information {
+  color: white;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 64px;
+  padding: 100px;
+  text-align: start;
+}
+.moreVegas {
+  width: 230px;
+  height: 134px;
+  gap: 16px;
+}
+.moreVegas p {
+  width: 230px;
+  height: 30px;
+  font-size: 20px;
+  line-height: 30px;
+}
+.contactLink {
+  width: 230px;
+  height: 88px;
+}
+.contactLink a {
+  font-size: 16px;
+  gap: 8px;
+  line-height: 24px;
+  text-decoration: none;
+  color: white;
+  opacity: 70%;
+}
+.aboutMe {
+  gap: 16px;
+  height: 142px;
+  width: 426px;
+  font-size: 20px;
+}
+.intro {
+  color: white;
+  font-size: 16px;
+  gap: 8px;
+  opacity: 60%;
+  line-height: 24px;
+}
+.aboutWebsite {
+  width: 426px;
+  height: 94px;
+  gap: 16px;
+}
+.aboutWebsite p {
+  width: 426px;
+  height: 30px;
+  font-size: 20px;
+  line-height: 30px;
+}
+.websiteInfo {
+  width: 426px;
+  height: 48px;
+  opacity: 60%;
+  font-size: 16px;
+  line-height: 24px;
+}
+footer a {
+  color: white;
+}
+footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/101/354/original/vegas1.jpeg?1697790384");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  width: 1512px;
+  height: 334px;
+  top: 3755px;
 }
