@@ -59,6 +59,40 @@ img {
   font-size: 16px;
   line-height: 1.5;
 }
+.hotels h3 {
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  height: 24px;
+  line-height: 24px;
+  letter-spacing: 5px;
+  margin-top: 150px;
+  text-transform: uppercase;
+  width: 100px;
+  opacity: 30%;
+}
+.hotels p {
+  color: white;
+  font-size: 48px;
+  line-height: 72px;
+  margin: 20px;
+  text-align: center;
+}
+.hotelInfo {
+  display: grid;
+  grid-template-columns: 185px 185px 185px 185px 185px 185px;
+  justify-content: center;
+}
+.hotelInfo img {
+  width: 185px;
+  height: 185px;
+  padding: 0;
+}
+.hotelInfo p {
+  color: white;
+  font-size: 24px;
+  line-height: 36px;
+}
 .galeryTitle h3 {
   text-align: center;
   color: white;
