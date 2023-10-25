@@ -14,14 +14,22 @@ body {
 .gridHistory {
   grid-template-columns: 1fr 1fr;
 }
-
+.gridHotels {
+  grid-template-columns: 1fr 1fr 1fr;
+}
 .gridFooter {
   grid-template-columns: 1fr 2fr 2fr;
 }
 section {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 100px;
+}
+section .hotels {
+  background-color: #181525;
+}
+.hotels h3 {
+  text-align: center;
 }
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -64,6 +72,7 @@ main h2 {
   letter-spacing: 5px;
   margin: 0;
   opacity: 30%;
+  text-transform: uppercase;
 }
 main h3 {
   font-weight: 700;
@@ -71,6 +80,18 @@ main h3 {
   line-height: 1.5;
   margin: 0;
   color: white;
+}
+main h4 {
+  size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  margin: 0;
+}
+main h5 {
+  size: 13px;
+  font-weight: 700;
+  line-height: 19.5px;
+  margin: 0;
 }
 main p {
   font-weight: 400;
@@ -83,6 +104,39 @@ main img {
   height: 481px;
   padding-top: 90px;
   max-width: 100%;
+}
+.card {
+  background: #181525;
+  margin: 30px 0;
+}
+.imgResponsive {
+  max-width: 100%;
+  display: block;
+  padding: 0;
+}
+.cardBody {
+  padding: 30px;
+}
+.cardFooter {
+  padding: 30px;
+}
+.card p {
+  size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.button {
+  background-color: #462cb2;
+  display: block;
+  color: white;
+  size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 3px;
+  padding: 16px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 footer {
