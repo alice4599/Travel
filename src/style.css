@@ -31,6 +31,9 @@ section .hotels {
 .hotels h3 {
   text-align: center;
 }
+.galery h3 {
+  text-align: center;
+}
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/101/353/original/vegas.jpeg?1697790293");
@@ -149,7 +152,9 @@ main img {
   text-decoration: none;
   text-transform: uppercase;
 }
-
+.instaEmbed {
+  margin: 30px 0;
+}
 footer {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/101/354/original/vegas1.jpeg?1697790384");
