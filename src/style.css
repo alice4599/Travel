@@ -109,10 +109,21 @@ main img {
   background: #181525;
   margin: 30px 0;
 }
+.cardHeader.grid {
+  gap: 0;
+}
+.card img {
+  height: 100%;
+  width: 100%;
+}
 .imgResponsive {
-  max-width: 100%;
+  width: 100%;
   display: block;
   padding: 0;
+}
+.hotelMaps {
+  width: 100%;
+  aspect-ratio: 1/1;
 }
 .cardBody {
   padding: 30px;
@@ -191,5 +202,11 @@ footer p {
   }
   section {
     padding: 30px;
+  }
+  .cardHeader img {
+    display: none;
+  }
+  .hotelMaps {
+    aspect-ratio: 16/9;
   }
 }
